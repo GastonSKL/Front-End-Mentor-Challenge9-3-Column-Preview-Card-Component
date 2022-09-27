@@ -96,6 +96,12 @@ body{
     color: var(--Verydarkcyan);
 }
 
+.button:active{
+    background-color: var(--Verydarkcyan);
+    border: 1px solid white;
+    color: white;
+}
+
 
 .attribution {
   font-size: 11px;
