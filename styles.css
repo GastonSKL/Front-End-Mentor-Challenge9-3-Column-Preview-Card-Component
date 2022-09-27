@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    height: 100vh;
+    background-color: var(--Verylightgray);
+}
+
+:root{
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+    --Verylightgray: hsl(0, 0%, 95%);
+}
+
+/*-----------------------------------------------*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .8em;
+    width: 21.8em;
+    height: 88.6em;
+    margin: 6em auto 3em;
+    overflow: hidden;
+}
+
+.container__item-img{
+    margin-top: -1em;
+} 
+
+.container__item-img img{
+    width: 4.3em;
+}
+
+.container__item{
+    flex: 1;
+    padding: 3.33em;
+    text-align: left;
+    width: 15em;
+    color:white;
+    height: 100%;
+    
+}
+
+.container__item-title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2em;
+    margin-top: 1em;
+    font-weight: 700;
+    
+}
+
+
+
+.container__item-description{
+    line-height: 2em;
+    color: var(--Transparentwhite);
+    font-weight: 400;
+    margin-top: 2em;
+}
+
+.container__item-1{
+    background-color: var(--Brightorange);
+    
+}
+
+.container__item2{
+    background-color: var(--Darkcyan);
+}
+
+.container__item3{
+    background-color: var(--Verydarkcyan);
+}
+
+.container__item-button{
+    width: 10em;
+    height: 3.3em;
+}
+
+.button{
+    width: 100%;
+    height: 100%;
+    border-radius: 3em;
+    border: none;
+    margin-top: 2em;
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--Verydarkcyan);
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (min-width:1000px){
+    .container{
+        width: 63em;
+        height: 33em;
+        flex-direction: row;
+        border-radius: .8em;
+        overflow: hidden;
+        margin: 12em auto 3em;
+    }
+
+    .container-container{
+        margin-top: 4em;
+    }
+}
